@@ -1,4 +1,4 @@
-FROM natep18f/container-cypress-test:container-build
+FROM amyfarrellatgsa/container-cypress-test:container-build
 
 WORKDIR /app_modules
 RUN npm install \
