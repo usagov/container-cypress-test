@@ -19,7 +19,7 @@ jobs:
         uses: docker/metadata-action@v4
         with:
           images: |
-            natep18f/container-cypress-test
+            amyfarrellatgsa/container-cypress-test
           tags: |
             type=ref,event=branch
             type=semver,pattern={{major}}.{{minor}}
