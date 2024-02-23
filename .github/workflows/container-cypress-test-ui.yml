@@ -1,4 +1,4 @@
-name: Builds Cypress Container with custom packages; Cypress UI Test
+name: Builds and pushes container-cypress-test image
 
 on:
   push:
